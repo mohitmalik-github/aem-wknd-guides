@@ -54,7 +54,7 @@ public class LoggingFilter implements Filter {
         logger.debug("request for {}, with selector {}", slingRequest
                 .getRequestPathInfo().getResourcePath(), slingRequest
                 .getRequestPathInfo().getSelectorString());
-
+// This is test comment
         filterChain.doFilter(request, response);
     }
 
